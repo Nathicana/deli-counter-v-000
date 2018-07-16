@@ -20,9 +20,8 @@ def take_a_number(katz_deli, name)
      puts "Welcome, #{name}. You are number #{index + 1} in line."
      katz_deli.push(#{name})
       
-    
-end
-end
+    end
+
 
 
 
