@@ -17,7 +17,7 @@ end
 def take_a_number(katz_deli, name)
   
   
-     puts  "Welcome, #{customer}. You are number #{index + 1} in line."
+     puts  "Welcome, #{name}. You are number 1 in line."
       
        katz_deli << name
       end
