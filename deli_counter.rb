@@ -15,12 +15,13 @@ end
 
 
 def take_a_number(katz_deli, name)
+  
   katz_deli.each_with_index do |customer, index| 
      puts  "Welcome, #{customer}. You are number #{index + 1} in line."
        end
       
        katz_deli << name
-end
+      end
 
 
 def now_serving(katz_deli)
