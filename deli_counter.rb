@@ -18,7 +18,6 @@ def take_a_number(katz_deli, name)
   
   
      puts  "Welcome, #{customer}. You are number #{index + 1} in line."
-       end
       
        katz_deli << name
       end
