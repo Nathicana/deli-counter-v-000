@@ -15,8 +15,9 @@ end
 
 
 def take_a_number(katz_deli, name)
-  
-  puts  "Welcome, #{name}. You are number 1 in line."
+  counter = 0
+  counter += 1
+  puts  "Welcome, #{name}. You are number #{counter} in line."
        katz_deli << name
     
 end
