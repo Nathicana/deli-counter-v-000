@@ -15,13 +15,12 @@ end
 
 
 def take_a_number(katz_deli, name)
-  
-  
-     puts  "Welcome, #{name}. You are number 1 in line."
-      
+  if katz_deli == 0
+  puts  "Welcome, #{name}. You are number 1 in line."
+     else 
        katz_deli << name
       end
-
+end
 
 def now_serving(katz_deli)
   if katz_deli.size > 0 
