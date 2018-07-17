@@ -21,8 +21,7 @@ def take_a_number(katz_deli, name)
     katz_deli << name
   end
         puts "Welcome, #{customer}. You are number #{index + 1} in line."
-  else 
-    katz_deli
+  
 
 end
 end
